@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f5f9;
+    margin: 0;
+    padding: 20px;
+    background-image: url(achtergrond.jpg);
+    transition: background-image 0.5s ease;
+}
+body-1{
+    display: none;
+    background-image: url(moster.jpg);
+}
+
+.container1 {
+    width: 800px;
+    margin: 0 auto;
+    max-height: 80px ;
+    background-color: rgba(255, 255, 255, 0.911);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 6px solid #14a89985;
+    display: flex;
+    justify-content: center;
+}
+.container2 {
+    width: 760px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.911);   
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 6px solid #14a89985;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+.container3 {
+    max-width: 760px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.911);   
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 6px solid #14a89985;
+}
+
+h1, h2, h3 {
+    color: #1e3d59;
+}
+
+p {
+    color: #333;
+    line-height: 1.6;
+}
+
+button {
+    background-color: #17c3b2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #14a89a;
+}
+.random{
+    color: #14a89a;
+    font-size: large;
+}
+h1{
+    color: #14a89a  ;
+}
+.verborgen{ 
+    display:none; 
+    }
+.mark{
+    background-color: #78c2ff;
+}
+.Start{
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #14a89a;
+    font-size: larger;
+    font-weight: 900;
+    font-family: sigma;
+}
+@font-face {
+    font-family: sigma;
+    src: url(sigma.ttf);
+    
+}
+.title{
+    font-family: sigma;
+}
